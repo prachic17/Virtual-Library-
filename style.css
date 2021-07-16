@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Caveat&family=Qahiri&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Caveat&family=Overlock&family=Qahiri&family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow&family=Caveat&family=Encode+Sans+Expanded:wght@300&family=Overlock&family=Qahiri&family=Rock+Salt&display=swap');
+
+.bg-header{
+	background-color: #b3edc0;
+
+}
+.logo{
+	display:flex;
+	justify-content:center;
+	margin-top: 25x;
+	margin-bottom: 0px;
+}
+img{
+	height: 100px;
+	width: 100px;
+	margin-top: 10px; 
+	border-radius: 50%;
+	border: 6px solid #2f616c;
+}
+.header{
+	font-size: 20px;
+	margin: auto 0;
+	text-align: center;
+	color: #721746;
+	font-family: 'Rock Salt', cursive;
+}
+.addbutton{
+	margin-top: 0px;
+	display: flex;
+	line-height: 1.5px;
+	font-weight:  400px;
+	text-decoration:  none;
+	vertical-align: middle;
+	
+	justify-content: center;
+	align-items: center;
+}
+
+.btnfornew{
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Overlock', cursive;
+	height: 50px;
+	width: 150px;
+	font-size: 20px;
+	background-color: #ffffff;
+	border-radius: 10px;
+	box-sizing: box-shadow;
+	border: 3px solid #ee6b61 ;
+}
+.btnfornew:hover{
+	background-color: #ce8689;
+	border: 4px solid #ffffff;
+	font-size: 22px;
+}
+h3{
+	font-family: 'Encode Sans Expanded', sans-serif;
+	text-align: center;
+	font-weight: 700px;
+	color: black;
+	padding: 8px;
+	font-size: 30px;
+}
+
+.popup{
+	display: none;
+	position: fixed;
+	z-index: 1.5;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+    left: 0;
+    top: 0; 
+ }
+.newform{
+	background-color:#f2f2f2;   
+	text-align: left;
+    margin: 8% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 470px;
+    border: 3px solid black;
+
+
+}
+.newform:hover{
+	 border: 4px solid black;
+}
+label{
+   width: 90%;
+   font-size: 15px;
+   font-family: poppins;
+   font-weight: bold;
+}
+input{
+	width: 100%;
+	padding : 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	box-sizing: border-box;
+}	
+select{
+    width: 100%;
+    padding : 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	box-sizing: border-box;
+    font-size: 15px;
+   
+}
+
+input[type=submit]{
+width: 150px;
+height: 50px;
+left: 30%;
+float: center;
+letter-spacing: 1px;
+font-weight: bold;
+font-size: 18px;
+overflow: hidden;
+background:#d7713b ;
+color: #fff;
+padding:  14px 20px;
+margin: 8px 0;
+border: 2px solid #d7713b;
+border-radius: 20px;
+cursor: pointer;
+position: relative;
+font-family: 'Ubuntu', sans-serif;
+box-shadow: 2px 2px 5px black;
+}
+input[type=submit]:hover{
+  background: #fff;
+  color: #d7713b;
+}
+
+.close1 {
+    color:black;
+    float: right;
+    font-size: 40px;
+    cursor: pointer;
+    z-index: 4;
+    
+   	transition: transform .25s, opacity .25s;
+
+}
+.close1:hover {
+    font-size: 44px;
+    background-color: red;    
+    border: 2px solid black;
+    transform: rotate(90deg);
+   
+    
+   
+}
+
+.buttonremove{
+	background-color: red;
+	border: 2px solid red;
+    position: relative;
+	overflow: hidden;
+	font-size: 17px;
+	border-radius: 20px;
+	
+
+}
+.buttonremove:hover{
+	background-color: white;
+	color:  red;
+	font-size: 17px;
+}
+.card {
+	display: inline-block;
+	flex: nowrap;
+    background-color: #05608b;
+    width: 180px;
+    height: 250px;
+    border: 1px solid  black;
+    font-size: 16px;
+    box-shadow: 3px 3px 10px;
+    border-radius: 4px;
+    overflow: auto;
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
+    
+   
+}
+

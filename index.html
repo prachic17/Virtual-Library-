@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset = "UTF-8">
+	<meta name = "viewport" content = "width=device-width">
+	<title> All Booked Up </title>
+	<link rel="stylesheet"  type ="text/css" href = "./libstyle.css" >
+	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+	<link href="https://fonts.googleapis.com/css2?family=Festive&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="bg-header">
+	<div class="logo">
+		<img src="./images/logo2.png">
+	</div>
+	<div class="header">
+	    <h1> All Booked Up </h1>
+	</div>
+	<div class="addbutton">
+        <button class='btnfornew'>+ New Book</button>
+	</div>
+	<hr />
+</div>
+	<div class="popup">
+		<form class="newform">
+			<span class="close1">&times;</span>
+			<h3> Tell us about your book </h3>
+
+			<label for="title">TITLE</label>
+			<input type="text" id="title" name="title" required="required"></input><br>
+			<label for="author">AUTHOR</label>
+			<input type="text" id="author" name="author" required="required"></input><br>
+			<label for="status">STATUS</label>
+			<select id="status">
+				
+				<option value="Currently Reading">Currently Reading</option>
+				<option value="Completed">Completed</option>
+			</select><br>
+			<div class="submit">
+			    <input type="submit" id="submit" value="Add">
+		    </div>
+		</form>
+	</div>	
+	<script src="./myscript.js"> 
+    
+	</script>
+</body>
+</html>
+
+
